@@ -47,11 +47,22 @@ Padrão Controller → Service → Repository
 
 //////////////////////////
 
- Como rodar ?
+                                          Instalar dependências principais
  
 cd backend
 npm install
 npm run dev
+npm install express cors dotenv bcrypt jsonwebtoken
+
+                                          Instalar dependências de desenvolvimento
+                                          
+npm install -D @types/express @types/cors @types/bcrypt @types/jsonwebtoken typescript ts-node nodemon 
+
+
+ou tudo pelo PS npm install express cors dotenv bcrypt jsonwebtoken ; npm install -D @types/express @types/cors @types/bcrypt @types/jsonwebtoken typescript ts-node nodemon
+
+
+
 
 
 Crie o arquivo .env:
@@ -84,14 +95,14 @@ Hooks customizados
 
 Requisições via Axios (apiAuth.ts)
 
- Como rodar ?
+                                         Instalar dependências principais
  
 cd frontend
 npm install
 npm run dev
-
-
+npm install react-hot-toast
 Crie next-env.d.ts ou arquivo .env.local:
+
 
 NEXT_PUBLIC_API_URL=http://localhost:3001
 
@@ -136,3 +147,5 @@ TailwindCSS
 Axios
 
 Context API
+
+toast
