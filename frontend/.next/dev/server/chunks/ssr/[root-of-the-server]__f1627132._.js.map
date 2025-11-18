@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/OneDrive/Documents/desafio-avb-formulario/frontend/frontend/app/page.tsx"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function Home() {\n  return (\n \n  <div>\n    PAGINA INICIAL \n    <Link href=\"./cadastro\">CADRASTRAR</Link>\n\n  </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBAEA,8OAAC;;YAAI;0BAEH,8OAAC,0LAAI;gBAAC,MAAK;0BAAa;;;;;;;;;;;;AAI5B","debugId":null}}]
+}

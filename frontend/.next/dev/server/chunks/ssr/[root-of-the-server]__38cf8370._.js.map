@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/OneDrive/Documents/desafio-avb-formulario/frontend/abvForm/src/app/profile/page.tsx"],"sourcesContent":["\r\n\r\nimport { useAuth } from \"@/src/contexts/AuthContext\";\r\n\r\nexport default function Navbar() {\r\n  const { user, logout } = useAuth();\r\n\r\n  return (\r\n    <nav>\r\n      {user ? (\r\n        <>\r\n          <span>Olá, {user.name}</span>\r\n          <button onClick={logout}>Sair</button>\r\n        </>\r\n      ) : (\r\n        <span>Você não está logado</span>\r\n      )}\r\n    </nav>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;;;AAEe,SAAS;IACtB,MAAM,EAAE,IAAI,EAAE,MAAM,EAAE,GAAG,IAAA,qJAAO;IAEhC,qBACE,yPAAC;kBACE,qBACC;;8BACE,yPAAC;;wBAAK;wBAAM,KAAK,IAAI;;;;;;;8BACrB,yPAAC;oBAAO,SAAS;8BAAQ;;;;;;;yCAG3B,yPAAC;sBAAK;;;;;;;;;;;AAId","debugId":null}}]
+}
