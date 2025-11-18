@@ -1,5 +1,5 @@
 
-PASTA ESTRUTURA 
+                                            PASTA ESTRUTURA 
 /backend
   ├── src
   │   ├── controllers
@@ -32,8 +32,8 @@ PASTA ESTRUTURA
 ///////////////
 
 
-🚀 Backend (Node.js / Express / TypeScript)
-🔧 Funcionalidades
+                                  Backend (Node.js / Express / TypeScript)
+ Oque faz ? 
 
 Cadastro de usuário
 
@@ -61,8 +61,8 @@ PORT=3001
 
 //////////////////////////////////////////////
 
-💻 Frontend (Next.js 14 / React / TypeScript)
-🔧 Funcionalidades
+                                       Frontend (Next.js 14 / React / TypeScript)
+Oque faz ?
 
 Contexto global de autenticação (AuthContext)
 
